@@ -1,0 +1,31 @@
+.nav-path{padding-bottom: 0;}
+.breadcrumb,.panel-default,.my-detail-alert,.panel-success,.alert-warning, .person{
+    -moz-border-radius: 15px;      /* Gecko browsers */
+    -webkit-border-radius: 15px;   /* Webkit browsers */
+    border-radius:15px;            /* W3C syntax */  }
+.my-sumary{text-indent: 2em;margin-top: 5px;}
+.col-md-9 h5{text-align: center;margin-top: 30px;}
+.col-md-9 p{text-indent: 2em;padding: 0 30px 0 20px}
+.my-detail-alert{height: 30px;padding-top: 4px;margin-bottom: 10px;}
+.right-alert{float: right;padding-right: 10px;}
+.left-alter{padding-left:10px}
+.glyphicon-pencil{margin-left: 20px;}
+.glyphicon-eye-open,.glyphicon-heart,.glyphicon-sta,.glyphicon-comment{margin-left: 10px;}
+.panel-success{width:895px;margin: 5px 0 0 -15px;padding-left: 0;}
+.person{margin-left: 10px;}
+.img-circle{width: 40px;}
+.my-warning{background-color:#ccc;border: none}
+.person{border:1px solid #ccc;border-bottom: none;border-right: none;}
+.my-success{height: 50px;}
+.my-success h5{margin-top: -4px;margin-left: 20px;}
+.person-info{margin: -40px 0 0 50px;}
+.panel-body{margin-top: -15px;}
+.my-name{font-size: 15px;font-weight: bold;padding-right: 10px;}
+.message{margin: 20px 0 30px 20px;padding-bottom:30px;}
+.form{margin: -10px 30px 30px 30px}
+.my-success-button{margin-bottom:20px;float: right}
+.my-panel-warning{height: auto;padding-top: 6px;}
+.my-panel-warning a:hover{color: #3498db}
+.prev{margin-left: 20px;}
+.next{float: right;margin-right: 20px;}
+.comment{float: right;margin: 35px 20px 0 0;}

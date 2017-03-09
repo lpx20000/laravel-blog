@@ -1,0 +1,5 @@
+.col-md-9{filter:alpha(opacity:80); opacity:0.8;  -moz-opacity:0.8;-khtml-opacity: 0.8;}
+.my-search{margin-top: 20px;width: 775px;}
+.btn-warning{float: right;margin: -40px 0 10px 10px;}
+.search-list{font-weight: bold;}
+.search-time{float: right;font-weight: bold;}

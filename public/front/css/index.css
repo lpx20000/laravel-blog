@@ -1,0 +1,66 @@
+body { margin: 0;padding: 0;background-color: #F5F5F5;
+     width:100%;  height:40%;  background-size:100% 100%;
+    font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;
+    font-size: 14px;
+}
+.container{width: 1200px}
+.col-md-2,.col-md-9,.col-md-3,.navbar-fixed-top{background-color: #fff}
+/*.col-md-2{width: 198px;}*/
+.col-md-9{margin-right: 5px;width: 895px}
+.container-fluid{width: 1200px;border-bottom: 2px solid #000000;}
+/*right*/
+/*.col-md-7 h6{margin-top: 0;}*/
+/*.col-md-7 p{margin-bottom: 40px;}*/
+/*middle*/
+.thumbnail{float: left}
+.my-alert{position:fixed;width: 74%;margin: 0 0 0 210px;height: 30px;padding: 2px 0 0 5px;position: relative;bottom: 35px;}
+.glyphicon-leaf,.glyphicon-user{margin-left: 20px}
+.show-more{float: right;font-size: 20px;padding-right: 10px}
+.middle-hr{margin-top: -20px}
+.page-header{margin-bottom: 10px;}
+.tag{margin: 0 0 10px 15%;}
+.hr{margin-top: 2px}
+.row{margin-top:10px;}
+.col-md-4{float:left}
+.col-md-9{ -moz-border-radius: 15px;      /* Gecko browsers */
+    -webkit-border-radius: 15px;   /* Webkit browsers */
+    border-radius:15px;            /* W3C syntax */  }
+.col-md-9 p {width: 890px;padding: 10px 20px 10px 0}
+.my-success-posts,.my-post-list{ -moz-border-radius: 15px;      /* Gecko browsers */
+    -webkit-border-radius: 15px;   /* Webkit browsers */
+    border-radius:15px;            /* W3C syntax */
+    width: 895px;
+    height: 40px;
+    margin-left: -12px;
+    font-size: 14px;  }
+
+.footer{margin: 10px 0 0 250px;float: left;}
+/*left*/
+.col-md-3{ -moz-border-radius: 15px;      /* Gecko browsers */
+    -webkit-border-radius: 15px;   /* Webkit browsers */
+    border-radius:15px;            /* W3C syntax */}
+.list-group{margin-top: 10px;}
+.list-group-item{height: 45px;}
+.list-group-item .badge{float: right}
+.my-danger,.my-info{height: 40px;margin: 20px 0 0 0;padding-top: 8px;}
+.my-info{margin-bottom: 10px;}
+.my-tag-line{margin: 10px;padding: 5px}
+.friend-link .btn{margin: 5px;}
+.my-tag a{height: 25px;}
+
+#myTabs{width: 270px;margin-top: 10px;padding-bottom: 10px;border-bottom: none}
+#myTabs li {width: 90px;font-size: 12px;font-weight: bold;background-color: #fcf8e3;}
+#myTabs li a{color: #5cb85c;}
+.input-group{margin-top:10px;}
+.tab{display: none}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover,.nav-tabs > li.active > a:focus{border: 1px solid #f1c40f;border-bottom-color: transparent;}
+.tab p{font-size: 14px;margin-top: 5px;padding-right: 10px;}
+.tab .row a{color: #000}
+.tab .row a:hover{color: #5cb85c}
+.left-leaf{margin-left: 5px}
+.pagination{margin-left:300px; !important;}
+.main-row{height: 198.75px;!important;}
+
+
+
+
