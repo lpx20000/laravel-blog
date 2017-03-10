@@ -1,15 +1,5 @@
 <?php
 
-/*
-|--------------------------------------------------------------------------
-| Web Routes
-|--------------------------------------------------------------------------
-|
-| Here is where you can register web routes for your application. These
-| routes are loaded by the RouteServiceProvider within a group which
-| contains the "web" middleware group. Now create something great!
-|
-*/
 //首页
 Route::get('/', 'IndexController@index')->name('home');
 
@@ -24,7 +14,7 @@ Route::group(['middleware' => 'checkLogin'], function () {
 });
 
 Route::get('/tag/{name}', 'TagController@search')->name('tag');
-Route::get('/category/{name}', 'CategoryController@search')->name('category');
+Route::get('/category/{name?}', 'CategoryController@search')->name('category');
 
 //github登录
 Route::get('auth/github', 'AuthController@redirectToProvider')->name('githubLogin');

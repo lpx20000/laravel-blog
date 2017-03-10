@@ -36,7 +36,7 @@ return [
     ],
     'github' => [
         'client_id' => '6ac12b098a3d1bdba6c0',
-        'client_secret' => '3b58fc7822397aa478c128918b260afe136942f5',
-        'redirect' => 'http://192.168.1.191/auth/github/callback',
+        'client_secret' => '69372fc924ce1ab6292e47ccc8152adc86b34d03',
+        'redirect' => 'http://blog.app/auth/github/callback',
     ],
 ];

@@ -17,7 +17,7 @@
             @forelse ($item->categories as $category)
                 <span><a href="{{route('category', [$category->slug])}}">{{$category->title}}</a></span>
             @empty
-                <span><a href="#">暂无分类</a></span>
+                <span><a href="{{route('category')}}">暂无分类</a></span>
             @endforelse
 
 

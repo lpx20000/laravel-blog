@@ -31,21 +31,20 @@ class CategoryRepository extends AbstractRepository
     {
         // TODO: Implement index() method.
     }
+
+    /**
+     * @param $name
+     * @return mixed
+     * Create: 雨鱼
+     */
     public function search($name)
     {
-        $id = $this->getAllId($this->model->whereSlug($name)->select('id')->firstOrFail()->id);dd($id);
+        $id = $this->model->whereSlug($name)->select('id')->firstOrFail()->id;
+
         return $this->model->with(['articles'=> function($query) {
             $query->show();
-        }])->whereSlug($name)->paginate(10);
-    }
-    protected function getAllId($id)
-    {
-        $ids = [];
-       if ( $id = $this->model->whereId($id)->select('id')->firstOrFail()) {
-            $ids[] = $id->id;
-           $this->getAllId($id->id);
-       };
-       return $ids;
+        }])->whereId($id)->paginate(10);
+
     }
 }
 

@@ -9,7 +9,7 @@
                     @forelse ($article->categories as $category)
                         <span><a href="{{route('category', [$category->slug])}}">{{$category->title}}</a></span>
                     @empty
-                        <span><a href="#">暂无分类</a></span>
+                        <span><a href="{{route('category')}}">暂无分类</a></span>
                     @endforelse
                     <span class="glyphicon glyphicon-user"></span>
                     <span><a href="">{{$indexPresenter->getArticleUserName($article->user_id)}}</a></span>

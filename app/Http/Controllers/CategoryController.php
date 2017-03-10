@@ -34,9 +34,16 @@ class CategoryController extends Controller
 
         return view('front.category.index', compact('categories'));
     }
-    public function search($name)
+
+    /**
+     * @param $name
+     * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
+     * Create: 雨鱼
+     */
+    public function search($name = null)
     {
         $articles = $this->categoryRepository->search($name);
+
         return view('front.search.tagsearch', compact('articles'));
     }
 }

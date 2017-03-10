@@ -184,6 +184,8 @@ return [
         Encore\Admin\Providers\AdminServiceProvider::class,
         Laravel\Socialite\SocialiteServiceProvider::class,
 //        SocialiteProviders\Manager\ServiceProvider::class,
+        Laravel\Scout\ScoutServiceProvider::class,
+        ScoutEngines\Elasticsearch\ElasticsearchProvider::class,
     ],
 
     /*
